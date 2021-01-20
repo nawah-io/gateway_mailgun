@@ -101,8 +101,8 @@ def mailgun_newsletters_gateway(
 
 
 config = PACKAGE_CONFIG(
-	api_level='1.0',
-	version='1.0.0',
+	api_level='1.1',
+	version='1.1.0b1',
 	gateways={
 		'mailgun_messages': mailgun_messages_gateway,
 		'mailgun_newsletters': mailgun_newsletters_gateway,
